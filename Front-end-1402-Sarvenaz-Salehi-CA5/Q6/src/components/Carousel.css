@@ -1,0 +1,50 @@
+
+.carousel {
+    justify-content: center;
+    place-items: center;
+    display: flex;
+    position: relative;
+    margin-top: 20%;
+
+}
+
+.slide {
+    height: 300px;
+  
+  }
+
+
+
+  .carousel .left  {
+    width: 60px;
+    vertical-align: middle;
+    height: 300px;
+    display: grid;
+  }
+
+  .carousel .carouselContainer {
+    width: 400px;
+    display: grid;
+    overflow: scroll;
+   
+   
+
+  }
+
+ 
+  .carousel .right  {
+    width: 60px;
+    height: 300px;
+    display: grid;
+
+
+  }
+
+button {
+    cursor: pointer;
+    height: 50px;
+    margin-top: 120px;
+    border-radius: 50%;
+    background-color: grey;
+
+  }

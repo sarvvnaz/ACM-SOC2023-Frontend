@@ -1,0 +1,48 @@
+
+[
+  {
+    "id": 1,
+    "title": "Barbie",
+    "poster": "https://cloudcdn.monster/images/b/w1280/2cf22a58990e99ef2b12ad2f0d546abb.webp",
+    "year": "2023",
+    "country": "USA",
+    "imdb_rating": "9.3",
+    "genres": ["Crime", "Drama"],
+    "descreption": " Barbie suffers a crisis that leads her to question her world and her existence."
+
+
+  },
+  {
+    "id": 2,
+    "title": "Elemental",
+    "poster": "https://cloudcdn.monster/images/b/w1280/2e3444b01f695fad644918e30b9f87ec.webp",
+    "year": "2023",
+    "country": "USA",
+    "imdb_rating": "9.2",
+    "genres": ["Crime", "Drama"],
+    "descreption": "Follows Ember and Wade, in a city where fire-, water-, land- and air-residents live together."
+
+  },
+  {
+    "id": 3,
+    "title": "Elemental",
+    "poster": "https://cloudcdn.monster/images/b/w1280/a5f11cc609b39ffdde8783d57decc243.webp",
+    "year": "1974",
+    "country": "USA",
+    "imdb_rating": "9.0",
+    "genres": ["Crime", "Drama"],
+    "descreption": " Barbie suffers a crisis that leads her to question her world and her existence."
+
+  },
+  {
+    "id": 3,
+    "title": "Elemental",
+    "poster": "https://cloudcdn.monster/images/b/w1280/e80318be9b132e6ae98a43ab102ac45b.webp",
+    "year": "1974",
+    "country": "USA",
+    "imdb_rating": "9.0",
+    "genres": ["Crime", "Drama"],
+    "descreption": " Barbie suffers a crisis that leads her to question her world and her existence."
+
+  }
+]

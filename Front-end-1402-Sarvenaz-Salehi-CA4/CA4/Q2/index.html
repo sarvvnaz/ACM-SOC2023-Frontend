@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookstorr</title>
+    <script src="scripts.js" defer></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- add book -->
+    <section id="add-book">
+        <h3>Register A Book</h3>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default">Title:</span>
+            </div>
+            <input type="text" name="add_input" class=" form-control" aria-label="Default"
+                aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default">Author:</span>
+            </div>
+            <input type="text" name="add_input" class=" form-control" aria-label="Default"
+                aria-describedby="inputGroup-sizing-default">
+        </div>
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default">Release Year:</span>
+            </div>
+            <input type="text" name="add_input" class=" form-control" aria-label="Default"
+                aria-describedby="inputGroup-sizing-default">
+        </div>
+
+            <button id="button-add-book" class="btn btn-outline-secondary" type="button">Add Book</button>
+    </section>
+
+    <!-- show all books -->
+    <section id="show-all-books">
+        <h3>See All The Books We have</h3>
+        <button id="button-show-books" class="btn btn-outline-secondary" type="button">Show</button>
+
+    </section>
+    <!-- search by author -->
+    <section id="search-by-author">
+        <h3>Find A Book By It's Author</h3>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroup-sizing-default">Author:</span>
+            </div>
+            <input type="text" name ="search-author-input" class="search-author-input form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+        </div>
+
+            <button id="search_by_author_button" class="btn btn-outline-secondary" type="button">Search</button>
+
+        <ul class="found-books">
+
+        </ul>
+    </section>
+</body>
+
+</html>

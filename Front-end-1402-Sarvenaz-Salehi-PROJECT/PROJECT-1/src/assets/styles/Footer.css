@@ -1,0 +1,100 @@
+footer .flex-parent-ft {
+    background-size: cover;
+    background-position: center;
+    height: 168px;
+    width: 100%;
+    color: #abb7c4;
+    padding: 3%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: 35% 65%;
+  
+  }
+  
+  footer .item1 {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 3;
+  }
+  
+  
+  footer .ft-promo {
+    justify-content: center;
+    display: flex;
+  }
+  
+  
+  footer .logo {
+    width: 140px;
+    height: 40px;
+  }
+  
+  footer .ft-copyright {
+    display: flex;
+    justify-content: right;
+    justify-content: space-between;
+    border-top: 1px solid #405266;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: rgba(2,13,24,0.71);
+   
+    flex-wrap: wrap;
+    position: relative;
+  }
+  
+  
+  .ft-copyright a {
+    color: #337ab7;
+  
+  
+  }
+  .ft-copyright a:hover {
+    color: #dcf836;
+    text-decoration: none;
+  }
+  footer {
+    background: url('../images/ft-bg.webp');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+  
+  
+  }
+  
+  footer .flex-child-ft{
+    display: flex;
+ 
+  }
+  
+  .contact-us {
+    margin-top: 5px;
+  }
+  .contact-us a{
+    color: #abb7c4;
+    text-decoration: none;
+  }
+  .contact-us a:hover {
+    color: #dcf836;
+    text-decoration: none;
+  }
+  @media screen and (max-width: 991px) {
+    .search-input {
+      max-width: 80%;
+    }
+    .contact-us{
+      text-align: center;
+      justify-content: center;
+    }
+    footer .ft-promo {
+      font-size: 12px;
+      text-align: left;
+      width: 100%;
+    }
+    footer .flex-parent-ft{
+      flex-direction: column;
+      
+    }
+  }
+  

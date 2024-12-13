@@ -1,0 +1,14 @@
+
+body {
+    display: block;
+    margin-left: 7%;
+}
+
+.color-box {
+    height: 100px;
+    width: 100px;
+    margin-top: 1%;
+    border:1px solid black;
+    
+}
+

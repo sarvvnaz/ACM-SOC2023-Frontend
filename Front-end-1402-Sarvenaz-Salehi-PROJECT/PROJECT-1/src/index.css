@@ -1,0 +1,12 @@
+body {
+  background-color: #020d18;
+  font-family: 'Nunito',sans-serif;
+  overflow-wrap: break-word;
+
+}
+html {
+  margin: 0;
+  font-size: 14px;
+  overflow-x: hidden;
+
+}

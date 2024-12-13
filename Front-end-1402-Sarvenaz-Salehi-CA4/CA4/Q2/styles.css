@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+    justify-content: center;
+}
+
+
+h3 {
+    margin: 1rem;
+}
+
+
+
+section {
+    margin-bottom: 15%;
+}

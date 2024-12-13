@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(139, 185, 185);
+  justify-content: center;
+}
+input {
+  background-color: rgb(219, 226, 225);
+  margin: 5%;
+  border-radius: 7%;
+}
+button {
+  background-color: rgb(41, 70, 70);
+  color: bisque;
+  border-radius: 20%;
+}
+
+ .shopList {
+  display: block;
+  margin-left: 20%;
+  position: relative;
+  background-color: rgb(255, 241, 201);
+  width: 500px;
+
+  border-radius: 5%;
+  height: 500px;
+
+  
+} 
+ul {
+  position: absolute;
+  font-size: large;
+  text-align: left;
+}
+
+p {
+  text-align: center;
+}
+
+li {
+  list-style-type: none
+}

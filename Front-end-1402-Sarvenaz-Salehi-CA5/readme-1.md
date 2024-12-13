@@ -1,0 +1,3 @@
+i learned the very basics of react, in q5 i used a bootstrap template and learned about separating and converting a html file into react jsx and making changes like changing the header background... 
+i also learned about importing images and props and state and used them in q6.
+sorry about the empty files i uploaded by mistake.. still a noob in github:)
